@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>MyFinances</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" />
 
     <link rel="stylesheet" href="styles.css" />
     <link
@@ -15,7 +16,8 @@
   </head>
   <body>
     <header>
-      <img src="./assets/logo.svg" alt="logo Dev Finance" />
+      <h1 id="logo">myFinances</h1>
+      <img src="/assets/finances.svg" alt="logo MyFinances" />
     </header>
 
     <main class="container">
@@ -40,7 +42,7 @@
 
         <div class="card total">
           <h3>
-            <span>Total</span>
+            <span>Saldo</span>
             <img src="./assets/total.svg" alt="imagem de totais" />
           </h3>
           <p id="totalDisplay">R$ 0,00</p>
@@ -60,7 +62,8 @@
               <th>Descrição</th>
               <th>Valor</th>
               <th>Data</th>
-              <th></th>
+              <th>Alterar</th>
+              <th>Delete</th>
             </tr>
           </thead>
           <tbody></tbody>
@@ -117,7 +120,7 @@
       </div>
     </div>
 
-    <footer>dev.finance$</footer>
+    <footer>myFinances</footer>
 
     <script src="app.js"></script>
   </body>

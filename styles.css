@@ -18,7 +18,7 @@ html {
 
 /* BODY */
 body {
-  background: #f0f2f5;
+  background: #373b59;
   font-family: "Poppins", sans-serif;
 }
 
@@ -48,19 +48,25 @@ h2 {
 
 /* HEADER */
 header {
-  background: #2d4a22;
+  background: #272b36;
   padding: 5rem 0 12rem;
   text-align: center;
 }
 
+header img {
+  margin-bottom: -70px;
+}
+
 #logo {
-  color: #ccc;
-  font-weight: 100;
+  color: #fff;
+  font-weight: 300;
   opacity: 0.6;
+  margin-bottom: -30px;
+  font-size: 35px;
 }
 
 #balance {
-  margin-top: -8rem;
+  margin-top: -5rem;
 }
 
 #balance h2 {
@@ -91,14 +97,14 @@ header {
 }
 
 .card.total {
-  background: var(--green);
+  background: #bc94f9;
   color: #fff;
 }
 
 /* LINKS & BUTTONS  */
 
 a {
-  color: var(--green);
+  color: #bc94f9;
   text-decoration: none;
 }
 
@@ -111,7 +117,7 @@ button {
   height: 50px;
   border: none;
   color: #ccc;
-  background-color: var(--green);
+  background-color: #bc94f9;
   font-size: 16px;
   padding: 0;
   border-radius: 0.2rem;
@@ -119,7 +125,7 @@ button {
 }
 
 button:hover {
-  background-color: var(--green-hover);
+  opacity: 1;
   color: #fff;
 }
 
@@ -168,7 +174,7 @@ table tbody tr td:last-child {
 }
 
 table th {
-  background: #fff;
+  background: #bc94f9;
   font-weight: normal;
   padding: 1rem 2rem;
   text-align: left;
